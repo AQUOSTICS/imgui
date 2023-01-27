@@ -30,6 +30,9 @@ ipch
 **.vcxproj.filters
 **.vcxproj.user
 
+## Getting files created in JSON/Schemas/Catalog/ from a VS2022 update
+JSON/
+
 ## Commonly used CMake directories
 /build*/
 
@@ -49,9 +52,12 @@ examples/example_emscripten_wgpu/web/*
 cmake-build-*
 
 ## Unix executables from our example Makefiles
+examples/example_glfw_metal/example_glfw_metal
 examples/example_glfw_opengl2/example_glfw_opengl2
 examples/example_glfw_opengl3/example_glfw_opengl3
 examples/example_glut_opengl2/example_glut_opengl2
 examples/example_null/example_null
+examples/example_sdl_metal/example_sdl_metal
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
+examples/example_sdl_sdlrenderer/example_sdl_sdlrenderer
