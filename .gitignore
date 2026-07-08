@@ -40,6 +40,11 @@ JSON/
 build*/
 .cache
 
+## Ninja build files
+*.ninja
+.ninja_deps
+.ninja_log
+
 ## Xcode & macOS artifacts
 project.xcworkspace
 xcuserdata
